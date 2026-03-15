@@ -2,46 +2,7 @@
   "spider": "https://raw.githubusercontent.com/gaotianliuyun/0707/main/jar/custom_spider.jar",
   "wallpaper": "https://bing.img.run/1920x1080.php",
   "sites": [
-    { "key": "豆瓣", "name": "🔍┃豆瓣┃评分", "type": 3, "api": "csp_Douban", "searchable": 0, "changeable": 1 },
-    
-    /* --- 极速直连类 (画质高, 加载快) --- */
-    { "key": "csp_Nangua", "name": "🎃┃南瓜┃秒播", "type": 3, "api": "csp_Nangua", "searchable": 1, "quickSearch": 1, "filterable": 1 },
-    { "key": "csp_AppYsV2_厂长", "name": "🏭┃厂长┃直连", "type": 3, "api": "csp_AppYsV2", "searchable": 1, "ext": "https://czzy.top/api.php/provide/vod/" },
-    { "key": "在线之家", "name": "🏠┃在线┃海外", "type": 3, "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hclonely/TVBox-common/main/drpy_libs/zxzj.js" },
-    { "key": "低端", "name": "📉┃低端┃4K", "type": 3, "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hclonely/TVBox-common/main/drpy_libs/ddys.js" },
-    { "key": "素白白", "name": "⬜┃素白┃影视", "type": 3, "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/hclonely/TVBox-common/main/drpy_libs/subaibai.js" },
-    { "key": "csp_XBPQ_奇优", "name": "🚀┃奇优┃秒播", "type": 3, "api": "csp_XBPQ", "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/0707/main/json/qiyou.json" },
-    { "key": "csp_XBPQ_星辰", "name": "🌟┃星辰┃影视", "type": 3, "api": "csp_XBPQ", "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/0707/main/json/xingchen.json" },
-    { "key": "csp_XBPQ_泥巴", "name": "🟤┃泥巴┃影院", "type": 3, "api": "csp_XBPQ", "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/0707/main/json/niba.json" },
-
-    /* --- 网盘聚合类 (原盘画质, 需扫码) --- */
-    { "key": "csp_Wogg", "name": "📦┃玩偶┃哥哥", "type": 3, "api": "csp_Wogg", "searchable": 1, "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+https://www.wogg.link/" },
-    { "key": "csp_AliCloud", "name": "☁️┃阿里┃网盘", "type": 3, "api": "csp_AliCloud", "searchable": 1, "ext": "http://127.0.0.1:9978/file/tvbox/token.txt" },
-    { "key": "csp_Quark", "name": "🪐┃夸克┃网盘", "type": 3, "api": "csp_Quark", "searchable": 1, "ext": "http://127.0.0.1:9978/file/tvbox/token.txt" },
-
-    /* --- 官解/大厂类 (稳定) --- */
-    { "key": "csp_Tencent", "name": "🐧┃腾讯┃官解", "type": 3, "api": "csp_Tencent", "searchable": 1 },
-    { "key": "csp_Iqiyi", "name": "🥝┃爱奇艺┃官解", "type": 3, "api": "csp_Iqiyi", "searchable": 1 },
-    { "key": "csp_Youku", "name": "🆒┃优酷┃官解", "type": 3, "api": "csp_Youku", "searchable": 1 },
-    { "key": "csp_Mango", "name": "🥭┃芒果┃官解", "type": 3, "api": "csp_Mango", "searchable": 1 },
-    { "key": "csp_Bili", "name": "📺┃哔哩┃弹幕", "type": 3, "api": "csp_Bili", "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/0707/main/json/bilibili.json" },
-
-    /* --- 影视采集类 (大包围补漏神器) --- */
-    { "key": "非凡资源", "name": "✨┃非凡┃采集", "type": 1, "api": "http://cj.ffzyapi.com/api.php/provide/vod/", "searchable": 1 },
-    { "key": "卧龙资源", "name": "🐉┃卧龙┃采集", "type": 1, "api": "https://collect.wolongzyw.com/api.php/provide/vod/", "searchable": 1 },
-    { "key": "量子资源", "name": "⚛️┃量子┃采集", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod/", "searchable": 1 },
-    { "key": "索尼资源", "name": "📷┃索尼┃采集", "type": 1, "api": "https://suoniapi.com/api.php/provide/vod/", "searchable": 1 },
-    { "key": "红牛资源", "name": "🐂┃红牛┃采集", "type": 1, "api": "https://hongniuzy2.com/api.php/provide/vod/", "searchable": 1 },
-    { "key": "光速资源", "name": "⚡┃光速┃采集", "type": 1, "api": "https://api.guangsuapi.com/api.php/provide/vod/", "searchable": 1 },
-    { "key": "电影港", "name": "🛳️┃电影┃港湾", "type": 1, "api": "https://dygang.tv/api.php/provide/vod/" },
-
-    /* --- 动漫/特色类 --- */
-    { "key": "csp_Yinghua", "name": "🌸┃樱花┃动漫", "type": 3, "api": "csp_Yinghua", "searchable": 1 },
-    { "key": "csp_Age", "name": "🅰️┃AGE┃动漫", "type": 3, "api": "csp_Age", "searchable": 1 },
-    { "key": "csp_Anime", "name": "🏝️┃动漫┃岛", "type": 3, "api": "csp_Anime", "searchable": 1 },
-    { "key": "csp_Cili", "name": "🐻┃磁力┃熊", "type": 3, "api": "csp_Cili", "searchable": 1 },
-    { "key": "csp_Sport", "name": "⚽┃体育┃直播", "type": 3, "api": "csp_Sport", "searchable": 0 },
-    { "key": "csp_MV", "name": "🎵┃音乐┃MV", "type": 3, "api": "csp_MV", "searchable": 0 }
-  ],
+    { "key": "豆瓣", "name": "🔍┃豆瓣┃测试", "type": 3, "api": "csp_Douban", "searchable": 0, "changeable": 1 },
+    { "key": "在线之家", "name": "🏠┃在线┃海外", "type": 3, "api": "https://raw.githubusercontent.com/hclonely/TVBox-common/main/drpy_libs/zxzj.js" }
   ]
 }
