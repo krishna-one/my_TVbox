@@ -1,41 +1,39 @@
 {
-  "spider": "",
+  "spider": "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar",
   "wallpaper": "https://bing.img.run/1920x1080.php",
   "sites": [
     {
+      "key": "csp_Wogg",
+      "name": "📦┃玩偶┃哥哥",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+https://www.wogg.net/"
+    },
+    {
+      "key": "csp_Wobg",
+      "name": "🧳┃玩偶┃表哥",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt+https://wobge.run.goorm.io/"
+    },
+    {
+      "key": "csp_AliCloud",
+      "name": "☁️┃阿里┃搜索",
+      "type": 3,
+      "api": "csp_AliCloud",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://127.0.0.1:9978/file/tvbox/token.txt"
+    },
+    {
       "key": "量子",
-      "name": "⚛️┃量子┃综合",
+      "name": "⚛️┃量子┃保底",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "非凡",
-      "name": "✨┃非凡┃首发",
-      "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-      "searchable": 1
-    },
-    {
-      "key": "索尼",
-      "name": "📷┃索尼┃高清",
-      "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/",
-      "searchable": 1
-    },
-    {
-      "key": "樱花",
-      "name": "🌸┃樱花┃动漫",
-      "type": 1,
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
-      "searchable": 1
-    },
-    {
-      "key": "天空",
-      "name": "☁️┃天空┃动漫",
-      "type": 1,
-      "api": "https://m3u8.tiankongapi.com/api.php/provide/vod/",
       "searchable": 1
     }
   ]
